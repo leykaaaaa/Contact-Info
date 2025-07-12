@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>Angelica's Profile</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet"/>
+  <link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+  <!-- Profile Section -->
+  <section class="profile-section">
+    <div class="profile-image-container">
+      <img alt="Angelica's profile picture" class="profile-image" src="Profile.jpg"/>
+    </div>
+    
+    <h1 class="profile-name">Angelica</h1>
+    
+    <div class="visitor-counter">
+      <span class="text-sm">Visitors:</span>
+      <span id="visitor-counter" class="ml-1">0</span>
+    </div>
+    
+    <p id="animated-bio" class="profile-bio"></p>
+  </section>
+
+  <!-- Social Links Section -->
+  <section class="social-links-container">
+    <div class="social-links">
+      <a href="mailto:angelictulagan09@gmail.com" aria-label="Email" class="social-link" data-tooltip="Email">
+        <i class="fas fa-envelope"></i>
+      </a>
+      <a href="https://www.instagram.com/ctrl.leyk/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="social-link" data-tooltip="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.facebook.com/gelicagalitasalahat" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="social-link" data-tooltip="Facebook">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://www.tiktok.com/ctrl.leyk/" target="_blank" rel="noopener noreferrer" aria-label="TikTok" class="social-link" data-tooltip="TikTok">
+        <i class="fab fa-tiktok"></i>
+      </a>
+      <a href="https://wa.me/09854817056" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" class="social-link" data-tooltip="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+    </div>
+
+    <!-- Link Buttons -->
+    <div class="link-buttons">
+      <a href="https://wa.me/09854817056" target="_blank" rel="noopener noreferrer" class="link-button">
+        WhatsApp
+        <i class="fas fa-ellipsis-v"></i>
+      </a>
+      <a href="https://www.instagram.com/ctrl.leyk/" target="_blank" rel="noopener noreferrer" class="link-button">
+        Instagram
+        <i class="fas fa-ellipsis-v"></i>
+      </a>
+      <a href="https://www.facebook.com/gelicagalitasalahat" target="_blank" rel="noopener noreferrer" class="link-button">
+        Facebook
+        <i class="fas fa-ellipsis-v"></i>
+      </a>
+      <a href="https://www.tiktok.com/ctrl.leyk/" target="_blank" rel="noopener noreferrer" class="link-button">
+        TikTok
+        <i class="fas fa-ellipsis-v"></i>
+      </a>
+      <a href="https://www.behance.net/ctrl_leyk" target="_blank" rel="noopener noreferrer" class="link-button">
+        Behance
+        <i class="fas fa-ellipsis-v"></i>
+      </a>
+    </div>
+
+    <!-- Projects Section -->
+    <div class="projects-section">
+      <h2 class="projects-title">My Projects</h2>
+      <ul class="projects-list">
+        <li>
+          <a href="https://s-a-photobooth.netlify.app/" target="_blank" rel="noopener noreferrer" class="project-link">
+            S&A Self Photobooth
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- JavaScript Files -->
+  <script src="typewriter.js" defer></script>
+  <script src="visitor-counter.js" defer></script>
+</body>
+</html>
